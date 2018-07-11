@@ -1,0 +1,213 @@
+﻿生成启动时间为 2018/7/2 16:39:10。
+     1>项目“C:\Users\gongcheng\documents\visual studio 2013\Projects\libmodbus\libmodbus\libmodbus.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\gongcheng\Documents\Visual Studio 2013\Projects\libmodbus\libmodbus" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt getopt.c getopt_init.c "modbus-data.c" "modbus-rtu.c" "modbus-tcp.c" modbus.c modpoll.c
+         modpoll.c
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus-rtu.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\errno.h(99): warning C4005: “ECONNREFUSED”: 宏重定义
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus-tcp.h(21) : 参见“ECONNREFUSED”的前一个定义
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\errno.h(100): warning C4005: “ECONNRESET”: 宏重定义
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus-tcp.h(18) : 参见“ECONNRESET”的前一个定义
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\errno.h(104): warning C4005: “EINPROGRESS”: 宏重定义
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus-tcp.h(30) : 参见“EINPROGRESS”的前一个定义
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\errno.h(115): warning C4005: “ENOPROTOOPT”: 宏重定义
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus-tcp.h(27) : 参见“ENOPROTOOPT”的前一个定义
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\errno.h(130): warning C4005: “ETIMEDOUT”: 宏重定义
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus-tcp.h(24) : 参见“ETIMEDOUT”的前一个定义
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\mod_common.h(17): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : 参见“sscanf”的声明
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\mod_common.h(20): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : 参见“sscanf”的声明
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\mod_common.h(105): warning C4047: “=”:“char”与“char [2]”的间接级别不同
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\mod_common.h(164): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\mod_common.h(242): warning C4013: “close”未定义；假设外部返回 int
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\mod_common.h(258): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modpoll.c(300): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modpoll.c(301): warning C4552: “-”: 运算符不起任何作用；应输入带副作用的运算符
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modpoll.c(306): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 参见“strcpy”的声明
+         modbus.c
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus-rtu.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus-private.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.c(44): warning C4273: “modbus_strerror”: dll 链接不一致
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.h(247) : 参见“modbus_strerror”的前一个定义
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.c(112): warning C4273: “modbus_flush”: dll 链接不一致
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.h(238) : 参见“modbus_flush”的前一个定义
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.c(211): warning C4273: “modbus_send_raw_request”: dll 链接不一致
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.h(362) : 参见“modbus_send_raw_request”的前一个定义
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.c(484): warning C4273: “modbus_receive”: dll 链接不一致
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.h(364) : 参见“modbus_receive”的前一个定义
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.c(502): warning C4273: “modbus_receive_confirmation”: dll 链接不一致
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.h(366) : 参见“modbus_receive_confirmation”的前一个定义
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.c(707): warning C4273: “modbus_reply”: dll 链接不一致
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.h(368) : 参见“modbus_reply”的前一个定义
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.c(1005): warning C4273: “modbus_reply_exception”: dll 链接不一致
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.h(370) : 参见“modbus_reply_exception”的前一个定义
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.c(1085): warning C4273: “modbus_read_bits”: dll 链接不一致
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.h(258) : 参见“modbus_read_bits”的前一个定义
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.c(1114): warning C4273: “modbus_read_input_bits”: dll 链接不一致
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.h(269) : 参见“modbus_read_input_bits”的前一个定义
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.c(1189): warning C4273: “modbus_read_registers”: dll 链接不一致
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.h(280) : 参见“modbus_read_registers”的前一个定义
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.c(1215): warning C4273: “modbus_read_input_registers”: dll 链接不一致
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.h(291) : 参见“modbus_read_input_registers”的前一个定义
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.c(1269): warning C4273: “modbus_write_bit”: dll 链接不一致
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.h(301) : 参见“modbus_write_bit”的前一个定义
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.c(1281): warning C4273: “modbus_write_register”: dll 链接不一致
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.h(311) : 参见“modbus_write_register”的前一个定义
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.c(1292): warning C4273: “modbus_write_bits”: dll 链接不一致
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.h(322) : 参见“modbus_write_bits”的前一个定义
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.c(1355): warning C4273: “modbus_write_registers”: dll 链接不一致
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.h(332) : 参见“modbus_write_registers”的前一个定义
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.c(1403): warning C4273: “modbus_mask_write_register”: dll 链接不一致
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.h(333) : 参见“modbus_mask_write_register”的前一个定义
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.c(1446): warning C4273: “modbus_write_and_read_registers”: dll 链接不一致
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.h(334) : 参见“modbus_write_and_read_registers”的前一个定义
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.c(1520): warning C4273: “modbus_report_slave_id”: dll 链接不一致
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.h(344) : 参见“modbus_report_slave_id”的前一个定义
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.c(1583): warning C4273: “modbus_set_slave”: dll 链接不一致
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.h(188) : 参见“modbus_set_slave”的前一个定义
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.c(1593): warning C4273: “modbus_get_slave”: dll 链接不一致
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.h(189) : 参见“modbus_get_slave”的前一个定义
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.c(1604): warning C4273: “modbus_set_error_recovery”: dll 链接不一致
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.h(193) : 参见“modbus_set_error_recovery”的前一个定义
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.c(1616): warning C4273: “modbus_set_socket”: dll 链接不一致
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.h(197) : 参见“modbus_set_socket”的前一个定义
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.c(1627): warning C4273: “modbus_get_socket”: dll 链接不一致
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.h(198) : 参见“modbus_get_socket”的前一个定义
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.c(1638): warning C4273: “modbus_get_response_timeout”: dll 链接不一致
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.h(200) : 参见“modbus_get_response_timeout”的前一个定义
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.c(1676): warning C4273: “modbus_set_byte_timeout”: dll 链接不一致
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.h(208) : 参见“modbus_set_byte_timeout”的前一个定义
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.c(1690): warning C4273: “modbus_get_indication_timeout”: dll 链接不一致
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.h(210) : 参见“modbus_get_indication_timeout”的前一个定义
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.c(1702): warning C4273: “modbus_set_indication_timeout”: dll 链接不一致
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.h(211) : 参见“modbus_set_indication_timeout”的前一个定义
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.c(1715): warning C4273: “modbus_get_header_length”: dll 链接不一致
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.h(213) : 参见“modbus_get_header_length”的前一个定义
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.c(1725): warning C4273: “modbus_connect”: dll 链接不一致
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.h(223) : 参见“modbus_connect”的前一个定义
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.c(1735): warning C4273: “modbus_close”: dll 链接不一致
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.h(230) : 参见“modbus_close”的前一个定义
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.c(1743): warning C4273: “modbus_free”: dll 链接不一致
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.h(236) : 参见“modbus_free”的前一个定义
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.c(1751): warning C4273: “modbus_set_debug”: dll 链接不一致
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.h(245) : 参见“modbus_set_debug”的前一个定义
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.c(1772): warning C4273: “modbus_mapping_new_start_address”: dll 链接不一致
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.h(352) : 参见“modbus_mapping_new_start_address”的前一个定义
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.c(1853): warning C4273: “modbus_mapping_new”: dll 链接不一致
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.h(358) : 参见“modbus_mapping_new”的前一个定义
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.c(1860): warning C4273: “modbus_mapping_free”: dll 链接不一致
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.h(360) : 参见“modbus_mapping_free”的前一个定义
+         modbus-tcp.c
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus-private.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus-rtu.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus-tcp.c(481): warning C4273: “modbus_tcp_listen”: dll 链接不一致
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus-tcp.h(50) : 参见“modbus_tcp_listen”的前一个定义
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus-tcp.c(544): warning C4273: “modbus_tcp_pi_listen”: dll 链接不一致
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus-tcp.h(54) : 参见“modbus_tcp_pi_listen”的前一个定义
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus-tcp.c(660): warning C4273: “modbus_tcp_accept”: dll 链接不一致
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus-tcp.h(51) : 参见“modbus_tcp_accept”的前一个定义
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus-tcp.c(690): warning C4273: “modbus_tcp_pi_accept”: dll 链接不一致
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus-tcp.h(55) : 参见“modbus_tcp_pi_accept”的前一个定义
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus-tcp.c(793): warning C4273: “modbus_new_tcp”: dll 链接不一致
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus-tcp.h(49) : 参见“modbus_new_tcp”的前一个定义
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus-tcp.c(858): warning C4273: “modbus_new_tcp_pi”: dll 链接不一致
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus-tcp.h(53) : 参见“modbus_new_tcp_pi”的前一个定义
+         modbus-rtu.c
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus-rtu.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus-private.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus-rtu.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus-rtu.c(905): warning C4273: “modbus_rtu_set_serial_mode”: dll 链接不一致
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus-rtu.h(35) : 参见“modbus_rtu_set_serial_mode”的前一个定义
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus-rtu.c(959): warning C4273: “modbus_rtu_get_serial_mode”: dll 链接不一致
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus-rtu.h(36) : 参见“modbus_rtu_get_serial_mode”的前一个定义
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus-rtu.c(983): warning C4273: “modbus_rtu_get_rts”: dll 链接不一致
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus-rtu.h(43) : 参见“modbus_rtu_get_rts”的前一个定义
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus-rtu.c(1007): warning C4273: “modbus_rtu_set_rts”: dll 链接不一致
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus-rtu.h(42) : 参见“modbus_rtu_set_rts”的前一个定义
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus-rtu.c(1043): warning C4273: “modbus_rtu_set_custom_rts”: dll 链接不一致
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus-rtu.h(45) : 参见“modbus_rtu_set_custom_rts”的前一个定义
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus-rtu.c(1068): warning C4273: “modbus_rtu_get_rts_delay”: dll 链接不一致
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus-rtu.h(48) : 参见“modbus_rtu_get_rts_delay”的前一个定义
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus-rtu.c(1093): warning C4273: “modbus_rtu_set_rts_delay”: dll 链接不一致
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus-rtu.h(47) : 参见“modbus_rtu_set_rts_delay”的前一个定义
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus-rtu.c(1227): warning C4273: “modbus_new_rtu”: dll 链接不一致
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus-rtu.h(29) : 参见“modbus_new_rtu”的前一个定义
+         modbus-data.c
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus-rtu.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus-data.c(76): warning C4273: “modbus_set_bits_from_byte”: dll 链接不一致
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.h(404) : 参见“modbus_set_bits_from_byte”的前一个定义
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus-data.c(88): warning C4273: “modbus_set_bits_from_bytes”: dll 链接不一致
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.h(405) : 参见“modbus_set_bits_from_bytes”的前一个定义
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus-data.c(104): warning C4273: “modbus_get_byte_from_bits”: dll 链接不一致
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.h(407) : 参见“modbus_get_byte_from_bits”的前一个定义
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus-data.c(123): warning C4273: “modbus_get_float_abcd”: dll 链接不一致
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.h(409) : 参见“modbus_get_float_abcd”的前一个定义
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus-data.c(135): warning C4273: “modbus_get_float_dcba”: dll 链接不一致
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.h(410) : 参见“modbus_get_float_dcba”的前一个定义
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus-data.c(147): warning C4273: “modbus_get_float_badc”: dll 链接不一致
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.h(411) : 参见“modbus_get_float_badc”的前一个定义
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus-data.c(159): warning C4273: “modbus_get_float_cdab”: dll 链接不一致
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.h(412) : 参见“modbus_get_float_cdab”的前一个定义
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus-data.c(171): warning C4273: “modbus_get_float”: dll 链接不一致
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.h(408) : 参见“modbus_get_float”的前一个定义
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus-data.c(183): warning C4273: “modbus_set_float_abcd”: dll 链接不一致
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.h(415) : 参见“modbus_set_float_abcd”的前一个定义
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus-data.c(194): warning C4273: “modbus_set_float_dcba”: dll 链接不一致
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.h(416) : 参见“modbus_set_float_dcba”的前一个定义
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus-data.c(205): warning C4273: “modbus_set_float_badc”: dll 链接不一致
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.h(417) : 参见“modbus_set_float_badc”的前一个定义
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus-data.c(216): warning C4273: “modbus_set_float_cdab”: dll 链接不一致
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.h(418) : 参见“modbus_set_float_cdab”的前一个定义
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus-data.c(227): warning C4273: “modbus_set_float”: dll 链接不一致
+                 c:\users\gongcheng\documents\visual studio 2013\projects\libmodbus\libmodbus\modbus.h(414) : 参见“modbus_set_float”的前一个定义
+         getopt_init.c
+         getopt.c
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /l"0x0409" /nologo /fo"Debug\libmodbus.res" libmodbus.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\gongcheng\documents\visual studio 2013\Projects\libmodbus\Debug\libmodbus.dll" /INCREMENTAL /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\gongcheng\documents\visual studio 2013\Projects\libmodbus\Debug\libmodbus.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\gongcheng\documents\visual studio 2013\Projects\libmodbus\Debug\libmodbus.lib" /MACHINE:X86 /DLL Debug\libmodbus.res
+         Debug\getopt.obj
+         Debug\getopt_init.obj
+         "Debug\modbus-data.obj"
+         "Debug\modbus-rtu.obj"
+         "Debug\modbus-tcp.obj"
+         Debug\modbus.obj
+         Debug\modpoll.obj
+            正在创建库 C:\Users\gongcheng\documents\visual studio 2013\Projects\libmodbus\Debug\libmodbus.lib 和对象 C:\Users\gongcheng\documents\visual studio 2013\Projects\libmodbus\Debug\libmodbus.exp
+     1>modbus-rtu.obj : warning LNK4217: 本地定义的符号 _modbus_free 在函数 _modbus_new_rtu 中导入
+     1>modbus-tcp.obj : warning LNK4217: 本地定义的符号 _modbus_free 在函数 __modbus_tcp_connect 中导入
+     1>modpoll.obj : warning LNK4217: 本地定义的符号 _modbus_free 在函数 _main 中导入
+     1>modbus.obj : warning LNK4217: 本地定义的符号 _modbus_set_bits_from_bytes 在函数 _modbus_reply 中导入
+     1>modpoll.obj : warning LNK4217: 本地定义的符号 _modbus_set_slave 在函数 _main 中导入
+     1>modpoll.obj : warning LNK4217: 本地定义的符号 _modbus_connect 在函数 _listenForRtuConnection 中导入
+     1>modpoll.obj : warning LNK4217: 本地定义的符号 _modbus_close 在函数 _main 中导入
+     1>modpoll.obj : warning LNK4217: 本地定义的符号 _modbus_set_debug 在函数 _main 中导入
+     1>modpoll.obj : warning LNK4217: 本地定义的符号 _modbus_strerror 在函数 _listenForTcpConnection 中导入
+     1>modpoll.obj : warning LNK4217: 本地定义的符号 _modbus_read_bits 在函数 _main 中导入
+     1>modpoll.obj : warning LNK4217: 本地定义的符号 _modbus_read_registers 在函数 _main 中导入
+     1>modpoll.obj : warning LNK4217: 本地定义的符号 _modbus_read_input_registers 在函数 _main 中导入
+     1>modpoll.obj : warning LNK4217: 本地定义的符号 _modbus_write_bit 在函数 _main 中导入
+     1>modpoll.obj : warning LNK4217: 本地定义的符号 _modbus_write_register 在函数 _main 中导入
+     1>modpoll.obj : warning LNK4217: 本地定义的符号 _modbus_write_bits 在函数 _main 中导入
+     1>modpoll.obj : warning LNK4217: 本地定义的符号 _modbus_write_registers 在函数 _main 中导入
+     1>modpoll.obj : warning LNK4217: 本地定义的符号 _modbus_new_tcp 在函数 _createTcpCtx 中导入
+     1>modpoll.obj : warning LNK4217: 本地定义的符号 _modbus_tcp_listen 在函数 _listenForTcpConnection 中导入
+     1>modpoll.obj : warning LNK4217: 本地定义的符号 _modbus_tcp_accept 在函数 _listenForTcpConnection 中导入
+     1>modpoll.obj : warning LNK4217: 本地定义的符号 _modbus_new_rtu 在函数 _createRtuCtx 中导入
+         libmodbus.vcxproj -> C:\Users\gongcheng\documents\visual studio 2013\Projects\libmodbus\Debug\libmodbus.dll
+     1>已完成生成项目“C:\Users\gongcheng\documents\visual studio 2013\Projects\libmodbus\libmodbus\libmodbus.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.96

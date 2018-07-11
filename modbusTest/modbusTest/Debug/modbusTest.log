@@ -1,0 +1,32 @@
+﻿生成启动时间为 2018/7/3 10:34:07。
+     1>项目“C:\Users\gongcheng\documents\visual studio 2013\Projects\modbusTest\modbusTest\modbusTest.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt /D_CRT_SECURE_NO_WARNINGS getopt.c getopt_init.c modpoll.c
+         modpoll.c
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\modbustest\modbustest\modbus.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\modbustest\modbustest\modbus-rtu.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\errno.h(99): warning C4005: “ECONNREFUSED”: 宏重定义
+                 c:\users\gongcheng\documents\visual studio 2013\projects\modbustest\modbustest\modbus-tcp.h(21) : 参见“ECONNREFUSED”的前一个定义
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\errno.h(100): warning C4005: “ECONNRESET”: 宏重定义
+                 c:\users\gongcheng\documents\visual studio 2013\projects\modbustest\modbustest\modbus-tcp.h(18) : 参见“ECONNRESET”的前一个定义
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\errno.h(104): warning C4005: “EINPROGRESS”: 宏重定义
+                 c:\users\gongcheng\documents\visual studio 2013\projects\modbustest\modbustest\modbus-tcp.h(30) : 参见“EINPROGRESS”的前一个定义
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\errno.h(115): warning C4005: “ENOPROTOOPT”: 宏重定义
+                 c:\users\gongcheng\documents\visual studio 2013\projects\modbustest\modbustest\modbus-tcp.h(27) : 参见“ENOPROTOOPT”的前一个定义
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\errno.h(130): warning C4005: “ETIMEDOUT”: 宏重定义
+                 c:\users\gongcheng\documents\visual studio 2013\projects\modbustest\modbustest\modbus-tcp.h(24) : 参见“ETIMEDOUT”的前一个定义
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\modbustest\modbustest\mod_common.h(105): warning C4047: “=”:“char”与“char [2]”的间接级别不同
+     1>c:\users\gongcheng\documents\visual studio 2013\projects\modbustest\modbustest\mod_common.h(242): warning C4013: “close”未定义；假设外部返回 int
+         getopt_init.c
+         getopt.c
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\gongcheng\documents\visual studio 2013\Projects\modbusTest\Debug\modbusTest.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\gongcheng\Documents\Visual Studio 2013\Projects\modbusTest\modbusTest" libmodbus.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\gongcheng\documents\visual studio 2013\Projects\modbusTest\Debug\modbusTest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\gongcheng\documents\visual studio 2013\Projects\modbusTest\Debug\modbusTest.lib" /MACHINE:X86 Debug\getopt.obj
+         Debug\getopt_init.obj
+         Debug\modpoll.obj
+         modbusTest.vcxproj -> C:\Users\gongcheng\documents\visual studio 2013\Projects\modbusTest\Debug\modbusTest.exe
+     1>已完成生成项目“C:\Users\gongcheng\documents\visual studio 2013\Projects\modbusTest\modbusTest\modbusTest.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.95
